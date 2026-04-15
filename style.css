@@ -1,0 +1,60 @@
+/* Для всего */
+* {
+    /* Без этой настройки когда ширина header 100%, учитывая padding значения суммируются и появляется полоса прокрутки */
+    box-sizing: border-box;
+}
+
+body {
+    /* Внешний отступ */
+    margin: 0px;
+    /* Шрифт */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Размер шрифта */
+    font-size: large;
+}
+
+header {
+    /* Внутренний отступ */
+    padding: 10px;
+    /* Ширина */
+    width: 100%;
+    /* Позиция*/
+    position: fixed;
+    background-color: rgb(50, 75, 250);
+    color: white;
+    /* Отображение */
+    /* Навигационные ссылки на одной строке с блочным текстом */
+    display: flex;
+    /* Выравнивание по вертикали*/
+    align-items: center;
+    /* выравнивание по горизонтали */
+    justify-content: center;
+}
+
+header p {
+    /* Позиция */
+    position: absolute;
+    left: 10px;
+    /* Размер шрифта */
+    font-size: x-large;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+main {
+    /* Внутренний отступ */
+    padding: 54px 10px 10px 10px;
+}
+
+main p {
+    margin: 0px;
+}
+
+table {
+    /* Расстояние между ячейками (избавляемся от двойной границы) */
+    border-collapse: collapse;
+}
