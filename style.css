@@ -28,7 +28,7 @@ header {
     /* Выравнивание по вертикали*/
     align-items: center;
     /* выравнивание по горизонтали */
-    justify-content: center;
+    justify-content: right;
 }
 
 header p {
