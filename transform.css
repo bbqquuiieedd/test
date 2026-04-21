@@ -20,7 +20,9 @@
 }
 
 #container:active {
+    /* Переход */
     transform: translate(5px, 5px) scale(0.5) rotate(50deg);
+    /* отправная точка перехода? */
     transform-origin: top left;
 }
 
@@ -39,7 +41,7 @@
 
 #payment-details th,
 #payment-details td {
-  /* Отступы */
+  /* Внутренний отступ */
   padding: 12px 16px;
 }
 
@@ -50,9 +52,12 @@
 
 /* Убираем лишние margin и padding-top у td */
 #payment-details td {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  /* Внешний отступ снизу */
   margin-bottom: 0;
+  /* Внутренний отступ сверху */
+  padding-top: 12px;
+  /* Внутренний отступ снизу */
+  padding-bottom: 12px;
 }
 
 img.payment-success {
@@ -190,9 +195,9 @@ p.payment-success {
 }
 
 #contact-info {
-  /* Отступ сверху */
+  /* Внешний отступ сверху */
   margin-top: 50px;
-  /* Отступ снизу */
+  /* Внешний отступ снизу */
   margin-bottom: 0px;
   /* Размер шрифта */
   font-size: 13px;
